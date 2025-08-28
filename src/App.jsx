@@ -25,7 +25,7 @@ const Layout = ({ children }) => (
 const Home = () => (
   <Layout>
     <div className="grid gap-6">
-      <img src="/public/profile.jpg" alt="Omar Zahi" className="rounded-2xl shadow w-40" />
+      <img src="/profile.jpg" alt="Omar Zahi" className="rounded-2xl shadow w-40" />
       <div>
         <h2 className="text-2xl font-semibold">About Me</h2>
         <p className="mt-2">

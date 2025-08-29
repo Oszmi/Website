@@ -1,4 +1,6 @@
-
+document.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+});
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Mail, Instagram, Youtube, QrCode, Camera } from "lucide-react";
@@ -111,3 +113,4 @@ export default function App() {
     </Router>
   );
 }
+
